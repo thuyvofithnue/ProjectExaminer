@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Learning Platform</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Web Learning</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="courses.html">Courses</a>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="search">
+      <h2>Find a Course</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="Search for a course..." />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="subject-cards">
+      <h2>Choose a Subject</h2>
+      <div class="card-row">
+        <div class="card">
+          <a href="courses.html?subject=Math">
+            <h3>Math</h3>
+          </a>
+        </div>
+        <div class="card">
+          <a href="courses.html?subject=Science">
+            <h3>Science</h3>
+          </a>
+        </div>
+        <div class="card">
+          <a href="courses.html?subject=English">
+            <h3>English</h3>
+          </a>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card">
+          <a href="courses.html?subject=Physics">
+            <h3>Physics</h3>
+          </a>
+        </div>
+        <div class="card">
+          <a href="courses.html?subject=History">
+            <h3>History</h3>
+          </a>
+        </div>
+        <div class="card">
+          <a href="courses.html?subject=Art">
+            <h3>Art</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Web Learning Platform</p>
+    </footer>
+  </body>
+</html>
